@@ -1,0 +1,1 @@
+cmd_/home/cs-user/Documents/CPSC_346/project2-linuxkernelmodules-mvonwahlde/simple.mod := printf '%s\n'   simple.o | awk '!x[$$0]++ { print("/home/cs-user/Documents/CPSC_346/project2-linuxkernelmodules-mvonwahlde/"$$0) }' > /home/cs-user/Documents/CPSC_346/project2-linuxkernelmodules-mvonwahlde/simple.mod
